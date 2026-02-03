@@ -57,6 +57,9 @@
         <li class="nav-item"><a class="nav-link" href="article.html">Article</a></li>
         <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
         <li class="nav-item"><a class="nav-link" href="iso.html">ISO</a></li>
+        <li class="nav-item">
+          <a class="btn btn-success p-3" href="https://wa.me/6281285014890" target="_blank"><i class="fa-brands fa-whatsapp fa-2xl" style="color: #ffffff;"></i></a>
+        </li>
       </ul>
     </div>
   </div>
@@ -285,6 +288,15 @@
         <div class="client-logo">
           <img src="../dist/assets/clients/unilever.jpg" alt="">
         </div>
+        <div class="client-logo">
+          <img src="../dist/assets/clients/aice.jpeg" alt="">
+        </div>
+        <div class="client-logo">
+          <img src="../dist/assets/clients/joyday.jpeg" alt="">
+        </div>
+        <div class="client-logo">
+          <img src="../dist/assets/clients/hypermart.jpeg" alt="">
+        </div>
        
         
 
@@ -315,6 +327,15 @@
         </div>
         <div class="client-logo">
           <img src="../dist/assets/clients/unilever.jpg" alt="">
+        </div>
+        <div class="client-logo">
+          <img src="../dist/assets/clients/aice.jpeg" alt="">
+        </div>
+        <div class="client-logo">
+          <img src="../dist/assets/clients/joyday.jpeg" alt="">
+        </div>
+        <div class="client-logo">
+          <img src="../dist/assets/clients/hypermart.jpeg" alt="">
         </div>
        
       </div>
@@ -743,6 +764,24 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
   });
 </script>
+
+<!-- icon WA -->
+<script>
+    const waBtn = document.querySelector('.wa-float');
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 200) {
+            waBtn.classList.remove('hidden');
+        } else {
+            waBtn.classList.add('hidden');
+        }
+    });
+
+    // mulai dalam keadaan hidden
+    waBtn.classList.add('hidden');
+</script>
+
+
 
 </body>
 </html>

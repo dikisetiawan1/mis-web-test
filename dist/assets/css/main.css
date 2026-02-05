@@ -314,8 +314,9 @@ a{
       }}
     @media (max-width: 576px) {
      .hero-badge {
-        font-size: 12px;
-        padding: 6px 14px;
+        /* font-size: 12px;
+        padding: 6px 14px; */
+       visibility:hidden;
         
       }
       .hero-title {

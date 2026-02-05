@@ -25,6 +25,10 @@
 
 </head>
 <body>
+  
+<div class="page-loader"></div>
+
+  
 <!-- icon WA melayang -->
      <a href="https://wa.me/6281234567890" class="wa-float" target="_blank">
       <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp">
@@ -747,8 +751,17 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 </script>
 
+
+  <!--analytics vercel  -->
   <script defer src="/_vercel/insights/script.js"></script>
 
+  <!--loader pages  -->
+
+<script>
+window.addEventListener("load", () => {
+  document.querySelector(".page-loader").classList.add("loaded");
+});
+</script>
 
 
 </body>

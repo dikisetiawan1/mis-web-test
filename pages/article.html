@@ -445,6 +445,13 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
   <script defer src="/_vercel/insights/script.js"></script>
 
+<!-- loader halaman -->
+  <script>
+window.addEventListener("load", () => {
+  document.body.classList.add("page-loaded");
+});
+</script>
+
 
 </body>
 </html>

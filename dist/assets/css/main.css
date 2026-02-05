@@ -12,6 +12,21 @@ a{
   text-decoration: none;
 }
 
+/*loader halaman  */
+.page-loader {
+  position: fixed;
+  inset: 0;
+  background: #111;
+  z-index: 9999;
+  transform: translateY(0);
+  transition: transform 0.8s ease;
+}
+
+.page-loader.loaded {
+  transform: translateY(-100%);
+}
+
+
 /* Condensation background */
 /* Layer embun */
 .condensation-bg {

@@ -8,7 +8,6 @@
   ],
   "rewrites": [
     { "source": "/", "destination": "index.html" },
-    { "source": "/home", "destination": "home.html" },
     { "source": "/about", "destination": "pages/about.html" },
     { "source": "/article", "destination": "pages/article.html" },
     { "source": "/career", "destination": "pages/career.html" },

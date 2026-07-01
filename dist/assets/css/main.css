@@ -5,7 +5,7 @@ body {
   color: #ffffff;
   background-color: #0f3d5e;
   position: relative;
-  overflow-x: hidden;
+  overflow-x: clip;
   width:100%;
 
 }
@@ -1992,6 +1992,7 @@ a{
   z-index: 999;
   text-decoration: none;
   animation: wa-bounce 2s infinite;
+  overflow:hidden;
 }
 
 .wa-float img {

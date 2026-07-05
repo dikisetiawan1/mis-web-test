@@ -1980,7 +1980,7 @@ a{
 
 
 /* icon WA melayang */
-
+/* 
 .wa-float {
   position: fixed;
   bottom: 20px;
@@ -2007,10 +2007,10 @@ a{
 }
 
 /* Efek denyut naik turun halus */
-@keyframes wa-bounce {
+/* @keyframes wa-bounce {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-6px); }
-}
+} */
 
 /* Ripple Effect */
 /* .wa-ripple {

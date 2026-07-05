@@ -2,6 +2,9 @@
 [data-aos]{
     overflow: hidden;
 }
+html{
+  overflow-x:hidden;
+}
 
 body {
   font-family: 'Inter', sans-serif;
@@ -10,6 +13,7 @@ body {
   color: #ffffff;
   background-color: #0f3d5e;
   position: relative;
+  overflow-x:hidden;
   width:100%;
 
 }

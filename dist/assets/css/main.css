@@ -2013,7 +2013,7 @@ a{
 }
 
 /* Ripple Effect */
-.wa-ripple {
+/* .wa-ripple {
   position: absolute;
   width: 60px;
   height: 60px;
@@ -2036,5 +2036,5 @@ a{
     transform: scale(1.8);
     opacity: 0;
   }
-}
+} */
 

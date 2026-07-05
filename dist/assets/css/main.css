@@ -1,7 +1,7 @@
 
-[data-aos]{
+/* [data-aos]{
     overflow: hidden;
-}
+} */
 
 html,body {
   font-family: 'Inter', sans-serif;
@@ -10,7 +10,7 @@ html,body {
   color: #ffffff;
   background-color: #0f3d5e;
   position: relative;
-  overflow-x: clip;
+  overflow-x: hidden;
   width:100%;
 
 }
